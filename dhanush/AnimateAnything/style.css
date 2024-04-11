@@ -1,0 +1,52 @@
+body{
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.text,.text1,.text2{
+    display: inline-block;
+    color: #fffce1;
+    font-size: 150px;
+    font-weight: bolder;
+    font-family: Mori, sans-serif;
+    overflow: hidden;
+}
+
+.one{
+    overflow: hidden;
+}
+
+.text1{
+    height: 105px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.text2{
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+}
+
+.two{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.l8,.l9{
+    position: relative;
+    bottom: 35px;
+}
+
+

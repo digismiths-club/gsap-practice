@@ -1,0 +1,10 @@
+header{
+    height: 30px;
+    font-weight: bolder;
+    background-color: rgb(222, 188, 62);
+}
+
+img{
+    mix-blend-mode: multiply;
+    height: 25px;
+}

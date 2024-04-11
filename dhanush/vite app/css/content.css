@@ -1,0 +1,42 @@
+main{
+    flex: 1;
+}
+
+.h1-wrapper{
+    overflow-y: hidden;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.backmobile{
+    position: absolute;
+    top:30px;
+    left:0px;
+    height: 300px;
+}
+
+.mobilefront{
+    height: 300px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    border:2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(231, 204, 169);
+}
