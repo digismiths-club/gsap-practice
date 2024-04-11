@@ -1,3 +1,4 @@
+/* Loadeing typekit font Neue Haas */
 @import url("https://use.typekit.net/zjg8dfi.css");
 @import "./header.css";
 @import "./content.css";
@@ -33,4 +34,7 @@ section {
 h1 {
   font-weight: 700;
   font-size: 6.5em;
+}
+p{
+  font-family: "neue-haas-grotesk-text",sans-serif;
 }
