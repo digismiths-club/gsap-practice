@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-color: beige;
+}
+nav{
+    width: 100vw;
+    padding: 30px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.nav-active{
+    background-color: black;
+    color: white;
+}
+span{
+    margin-left: 2vw;
+}
+.content{
+    padding-inline: 50px;
+    text-align: center;
+}
+p{
+    /* margin: 0 auto; */
+}
