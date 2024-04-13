@@ -1,15 +1,11 @@
-import './css/style.css';
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import "./css/style.css";
+import animations from "./aminations/gsapAnimations";
 
-gsap.registerPlugin(ScrollTrigger);
+function init() {
+  animations.hoverAnimations();
+  animations.headingAnimation();
+}
 
-
-console.log(gsap.version);
-
-gsap.from('h1', {
-    yPercent: 100,
-    duration: 2,
-    repeat: -1,
-    yoyo: true,
-})
+window.addEventListener("load", () => {
+  init();
+});

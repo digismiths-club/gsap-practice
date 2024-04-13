@@ -1,7 +1,19 @@
-main{
-    flex: 1;
+main {
+    display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content:center;
 }
 
-.h1-wrapper{
-    overflow-y: hidden;
+.main-content {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  
+}
+
+.h1-wrapper {
+  overflow-y: hidden;
 }
