@@ -14,7 +14,7 @@ body {
   background-color: #222;
   font-family: neue-haas-grotesk-display, sans-serif;
   color:azure;
-  min-height: 100vh;
+  min-height: 200vh;
   margin: 0 auto;
   display: flex;
   flex-direction: column;

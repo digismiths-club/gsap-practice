@@ -1,5 +1,5 @@
 header{
-    position: absolute;
+    position: fixed;
     width: 100%;
     z-index: 999;
     /* top: 10px; */
@@ -24,13 +24,26 @@ header{
     display: flex;
     height: 50px;
     align-items: center;
+    transition: 5s;
+}
 
+.scroll-logo .logo-main{
+    display: flex;
+    height: 35px;
+    align-items: center;
+    transition: 5s;
 }
 
 #logo {
     height: 45px;
-
+    transition: 5s;
 }
+
+.scroll-logo #logo {
+    height: 30px;
+    transition: 5s;
+}
+
 .navigation {
     
 }
