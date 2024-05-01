@@ -3,7 +3,7 @@ body{
     background-color: beige;
 }
 nav{
-    width: 100vw;
+    /* width: 100%; */
     padding: 30px;
     background-color: white;
     position: sticky;
